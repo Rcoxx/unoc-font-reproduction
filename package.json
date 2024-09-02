@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "packageManager": "pnpm@9.9.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "c": "rm -rf node_modules pnpm-lock.yaml package-lock.json bun.lockb .output .nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.62.3"
+  }
+}
